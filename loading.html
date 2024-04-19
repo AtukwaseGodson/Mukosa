@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+</head>
+<style>
+    .loading{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        border: 6px solid black;
+        border-top: 6px solid transparent;
+        animation: rotate 3s linear infinite;
+    }
+    .word{
+        padding-left: 40px;
+        padding-top: 60px;
+        
+    }
+    @keyframes rotate{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<body class= "bg-gray-900">
+    <div class="h-screen flex justify-center">
+        
+            
+            <div class="loading">
+                <div class="word">loading</div>
+            </div>
+         
+    </div>
+</body>
+</html>
